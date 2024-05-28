@@ -1,0 +1,18 @@
+[
+    {"nombre":"Spiderman", "precio":15000, "img": "./resources/spiderman.jpg", "id": 1 , "cantidad":1},
+    {"nombre":"Hulk", "precio":21000, "img":"./resources/hulk.jpg", "id":2 , "cantidad":1},
+    {"nombre":"Batman", "precio":12000, "img":"./resources/batman.jpg", "id":3 , "cantidad":1 },
+    {"nombre":"Superman", "precio":15000, "img":"./resources/superman.jpg", "id":4 , "cantidad":1},
+    {"nombre":"Hellboy", "precio":17000, "img":"./resources/hellboy.jpg", "id":5 , "cantidad":1},
+    {"nombre":"Daredevil", "precio":13000, "img":"./resources/daredevil.jpg", "id":6 , "cantidad":1},
+    {"nombre":"Xmen", "precio":20000, "img":"./resources/xmen.jpg", "id":7 , "cantidad":1},
+    {"nombre":"Flash", "precio":11000, "img":"./resources/flash.jpg", "id":8 , "cantidad":1},
+    {"nombre":"nemesis", "precio":20000, "img":"./resources/nemesis.jpg", "id":9 , "cantidad":1 },
+    {"nombre":"Fragmentos del Horror", "precio":13000, "img":"./resources/fragmentosdelhorror.jpg", "id":10 , "cantidad":1 },
+    {"nombre":"Fullmetal Alchemist", "precio":6000, "img":"./resources/fullmetalalchemist14.jpg", "id":11 , "cantidad":1 },
+    {"nombre":"Dragon Ball", "precio":6000, "img":"./resources/dragonball_41.jpg", "id":12 , "cantidad":1 },
+    {"nombre":"My Hero Academia", "precio":6000, "img":"./resources/myheroacademia24.jpg", "id":13 , "cantidad":1 },
+    {"nombre":"Real", "precio":7400, "img":"./resources/real_tapa_04.jpg", "id":14 , "cantidad":1 },
+    {"nombre":"Soichi", "precio":12500, "img":"./resources/soichi.jpg", "id":15 , "cantidad":1 }
+
+]
