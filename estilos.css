@@ -33,6 +33,34 @@ article, h1, section {
   margin-left: auto;
 }
 
-h1{
- text-align:  center;
+body {
+  background-color:grey
+  }
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+        }
+label {
+   display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  }
+
+input[type="text"],
+textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  text-align: center;
 }

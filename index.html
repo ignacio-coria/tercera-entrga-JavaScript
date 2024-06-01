@@ -15,25 +15,8 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Comics</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Mangas</a>
-                  </li>
-                  
-                  </li>
-                </ul>
               </div>
             </div>
-          <div>
-            <img src="./resources/carrodecompras.png" alt="" class="navbar-image">
-          </div>
         </nav>
     </article>
     <h1>Productos en stock</h1>
@@ -41,14 +24,39 @@
     <div class="tarjetero">
         <div id="productosComics" class="container d-flex flex-wrap  justify-content-center  tarjeta"> </div>
     </div>
+    <button class="btn btn-success  d-block mx-auto" id="verCarrito">Ver Carrito</button>
+    <br><br>
+    <button class="btn btn-success  d-block mx-auto" id="vaciarCarrito">Vaciar Carrito</button>
+    <br><br>
+    <div class="row py-3" id="contenedorCarrito"></div>
+
     </section>
+  <section>
+    <h2>Agrear tu Informacion</h2>
+    <form id="formulario">
+        <label for="nombre">Nombre del Cliente: </label>
+        <input id="nombre" type="text">
+        <br><br>
 
+        <label for="apellido">Apellido del Cliente</label>
+        <input id="apellido" type="text">
+        <br><br>
 
-    
-    
-    
-    
-    
+        <label for="tarjeta">Número Tarjeta</label>
+        <input id=tarjeta type="text">
+        <br><br>
+        <button>Finalizar Compra</button>
+
+        <br><br>
+
+        <h2>Ver tus datos: </h2>
+        <br><br>
+        <button id="verDatorProporcionados">Datos De La Compra </button>
+        <h3>Total Compra: <span id="totalCompra"></span></h3>
+        <div id="contenedorClientes"></div>
+</section>
+<!-- Toastify -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
