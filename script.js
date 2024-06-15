@@ -44,6 +44,13 @@ fetch("json/productos.json")
 
             const boton = document.getElementById(`boton${Producto.id}`);
             boton.addEventListener("click", () => {
+                Toastify({
+                    text: `${Producto.nombre} se agrego al carrito`,
+                    duration:3000,
+                    style:{
+                            background: "linear-gradient(to right , #2ECC71, #14B2A6",
+                }
+            }).showToast()
                 agregarAlCarrito(Producto.id);
             });
         });
